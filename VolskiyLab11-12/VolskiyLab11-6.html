@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 6</title>
+    <link rel="stylesheet" href="task11.css">
+</head>
+<body>
+    <h2>Завдання 6. Детальний опитувальний лист</h2>
+    <div class="form-container">
+        <fieldset>
+            <legend>Безпека та ПІБ</legend>
+            <div class="form-group">
+                <label for="pib">Прізвище, Ім'я, По-батькові:</label>
+                <input type="text" id="pib" name="pib" required>
+            </div>
+            <div class="form-group">
+                <label for="pwd">Пароль:</label>
+                <input type="password" id="pwd" name="password" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Географічні дані</legend>
+            <div class="form-group">
+                <label for="country">Держава проживання:</label>
+                <select id="country" name="country">
+                    <option value="ua" selected>Україна</option>
+                    <option value="pl">Польща</option>
+                    <option value="de">Німеччина</option>
+                    <option value="fr">Франція</option>
+                    <option value="it">Італія</option>
+                    <option value="es">Іспанія</option>
+                    <option value="uk">Велика Британія</option>
+                    <option value="us">США</option>
+                    <option value="ca">Канада</option>
+                    <option value="jp">Японія</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="zip">Поштовий індекс:</label>
+                <input type="text" id="zip" name="zip" maxlength="5" style="width: 100px;">
+            </div>
+            <div class="form-group">
+                <label for="street">Вулиця:</label>
+                <input type="text" id="street" name="street">
+            </div>
+            <div class="form-group">
+                <label for="building">Будинок:</label>
+                <input type="text" id="building" name="building" style="width: 100px;">
+            </div>
+            <div class="form-group">
+                <label for="email">Електронна адреса:</label>
+                <input type="text" id="email" name="email">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Тип місцевості</legend>
+            <div class="inline-group">
+                <label><input type="radio" name="location" value="1" checked> Мегаполіс</label>
+                <label><input type="radio" name="location" value="2"> Велике місто</label>
+                <label><input type="radio" name="location" value="3"> Передмістя</label>
+                <label><input type="radio" name="location" value="4"> Мале місто</label>
+                <label><input type="radio" name="location" value="5"> Селище</label>
+                <label><input type="radio" name="location" value="6"> Село</label>
+                <label><input type="radio" name="location" value="7"> Хутір</label>
+                <label><input type="radio" name="location" value="8"> Дачний кооператив</label>
+                <label><input type="radio" name="location" value="9"> Гірська місцевість</label>
+                <label><input type="radio" name="location" value="other"> Інше</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Ваші захоплення</legend>
+            <div class="inline-group">
+                <label><input type="checkbox" name="hobby" value="1" checked> Походи та туризм</label>
+                <label><input type="checkbox" name="hobby" value="2"> Комп'ютерні ігри</label>
+                <label><input type="checkbox" name="hobby" value="3"> Програмування</label>
+                <label><input type="checkbox" name="hobby" value="4"> Читання</label>
+                <label><input type="checkbox" name="hobby" value="5"> Музика</label>
+                <label><input type="checkbox" name="hobby" value="6"> Спорт</label>
+                <label><input type="checkbox" name="hobby" value="7"> Фотографія</label>
+                <label><input type="checkbox" name="hobby" value="8"> Кулінарія</label>
+                <label><input type="checkbox" name="hobby" value="9"> Подорожі</label>
+                <label><input type="checkbox" name="hobby" value="10"> Малювання</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Володіння мовами</legend>
+            <div class="inline-group">
+                <label><input type="checkbox" name="lang" value="uk" checked> Українська</label>
+                <label><input type="checkbox" name="lang" value="en"> Англійська</label>
+                <label><input type="checkbox" name="lang" value="de"> Німецька</label>
+                <label><input type="checkbox" name="lang" value="pl"> Польська</label>
+                <label><input type="checkbox" name="lang" value="fr"> Французька</label>
+            </div>
+        </fieldset>
+        <div class="form-group">
+            <label for="wishes">Ваші побажання:</label>
+            <textarea id="wishes" name="wishes" rows="4" cols="50"></textarea>
+        </div>
+        <div class="btn-container">
+            <input type="reset" value="Видалити результати">
+            <input type="submit" value="Відправти результати">
+        </div>
+    </div>
+</body>
+</html>

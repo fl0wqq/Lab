@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 7</title>
+    <link rel="stylesheet" href="task11.css">
+</head>
+<body>
+    <h2>Завдання 7. Опитувальний лист відвідувача бібліотеки</h2>
+    <div class="form-container">
+        <div class="form-group">
+            <label for="ln">Прізвище:</label>
+            <input type="text" id="ln" name="lastname" required>
+        </div>
+        <div class="form-group">
+            <label for="fn">Ім'я:</label>
+            <input type="text" id="fn" name="firstname" required>
+        </div>
+        <div class="form-group">
+            <label for="pwd">Пароль:</label>
+            <input type="password" id="pwd" name="password" required>
+        </div>
+        <div class="inline-group">
+            <label>Стать:</label><br>
+            <label><input type="radio" name="gender" value="male"> Чоловіча</label>
+            <label><input type="radio" name="gender" value="female" checked> Жіноча</label>
+        </div>
+        <fieldset>
+            <legend>Рід занять (Один варіант)</legend>
+            <div class="inline-group">
+                <label><input type="radio" name="job" value="1" checked> Студент</label>
+                <label><input type="radio" name="job" value="2"> Викладач</label>
+                <label><input type="radio" name="job" value="3"> Інженер</label>
+                <label><input type="radio" name="job" value="4"> Менеджер</label>
+                <label><input type="radio" name="job" value="5"> Інше</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Ваш вік</legend>
+            <div class="inline-group">
+                <label><input type="radio" name="age" value="under_18"> До 18</label>
+                <label><input type="radio" name="age" value="18_25" checked> 18 - 25</label>
+                <label><input type="radio" name="age" value="above_25"> Більше 25</label>
+            </div>
+        </fieldset>
+        <fieldset>
+        <legend>Тематика, що цікавить:</legend>
+        <div class="inline-group">
+            <label><input type="checkbox" name="genre" value="1" checked> Технічна література</label><br>
+            <label><input type="checkbox" name="genre" value="2"> IT-технології</label><br>
+            <label><input type="checkbox" name="genre" value="3"> Математика</label><br>
+            <label><input type="checkbox" name="genre" value="4"> Фізика</label><br>
+            <label><input type="checkbox" name="genre" value="5"> Художня проза</label><br>
+            <label><input type="checkbox" name="genre" value="6"> Фентезі</label><br>
+            <label><input type="checkbox" name="genre" value="7"> Історія</label><br>
+            <label><input type="checkbox" name="genre" value="8"> Психологія</label><br>
+            <label><input type="checkbox" name="genre" value="9"> Економіка</label><br>
+            <label><input type="checkbox" name="genre" value="10"> Мистецтво</label>
+        </div>
+    </fieldset>
+        <div class="form-group">
+            <label for="reading">Що зараз читаєте?</label>
+            <textarea id="reading" name="reading" rows="3" cols="50"></textarea>
+        </div>
+        <div class="btn-container">
+            <input type="reset" value="Очистити форму">
+            <input type="submit" value="Надіслати дані">
+        </div>
+    </div>
+</body>
+</html>

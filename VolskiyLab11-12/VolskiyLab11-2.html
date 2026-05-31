@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 2</title>
+    <link rel="stylesheet" href="task11.css">
+</head>
+<body>
+    <h2>Завдання 2. Довільна форма з усіма типами елементів</h2>
+    <div class="form-container">
+        <fieldset>
+            <legend>Реєстраційні дані</legend>
+            <div class="form-group">
+                <label for="username">Логін:</label>
+                <input type="text" id="username" name="username" size="23" maxlength="30">
+            </div>
+            <div class="form-group">
+                <label for="pass">Пароль:</label>
+                <input type="password" id="pass" name="pass" size="8" maxlength="10">
+            </div>
+        </fieldset>
+       <fieldset>
+            <legend>Особиста інформація</legend>
+            <div class="form-group">
+                <label for="city">Місто проживання:</label>
+                <select id="city" name="city">
+                    <option value="kyiv" selected>Київ</option>
+                    <option value="lviv">Львів</option>
+                </select>
+            </div>
+            <div class="inline-group">
+                <label>Ваш статус:</label><br>
+                <label><input type="radio" name="status" value="student" checked> Студент</label>
+                <label><input type="radio" name="status" value="worker"> Працюю</label>
+            </div>
+            <div class="inline-group">
+                <label>Цікаві напрямки:</label><br>
+                <label><input type="checkbox" name="interest" value="web" checked> Frontend</label>
+                <label><input type="checkbox" name="interest" value="design"> UI/UX Design</label>
+            </div>
+        </fieldset>
+       <fieldset>
+            <legend>Додатково</legend>
+            <div class="form-group">
+                <label for="resume">Завантажити резюме:</label>
+                <input type="file" id="resume" name="resume" size="50">
+            </div>
+            <div class="form-group">
+                <label for="notes">Про себе:</label>
+                <textarea id="notes" name="notes" cols="30" rows="3"></textarea>
+            </div>
+        </fieldset>
+        <div class="btn-container">
+            <input type="button" value="Показати дату" onclick="alert(Date());">
+            <input type="reset" value="СКАСУВАТИ">
+            <input type="submit" value="ВІДПРАВИТИ">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 20px;
+    padding: 0;
+}
+
+h2 {
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.form-container {
+    background: #fff;
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #3498db;
+    padding: 0 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.inline-group {
+    margin-bottom: 10px;
+}
+
+.inline-group label {
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.inline-group input {
+    margin-right: 5px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+input[type="reset"] {
+    background-color: #e74c3c;
+}
+
+.anketa-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e6f7f8;
+}
+
+.anketa-table td {
+    border: 2px solid #95a5a6;
+    padding: 8px;
+}
+
+.anketa-table .num-col {
+    width: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.anketa-table .label-col {
+    width: 35%;
+    font-weight: bold;
+}
+
+.anketa-table .input-col {
+    width: 60%;
+}
+
+.interests-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.interests-list li {
+    margin-bottom: 5px;
+}
+
+.interests-list input {
+    width: 100%;
+    border: 1px solid #bdc3c7;
+    padding: 4px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 4</title>
+    <link rel="stylesheet" href="task11.css">
+</head>
+<body>
+    <h2>Завдання 4. Форма замовлення товарів</h2>
+    <div class="form-container">
+        <div class="form-group">
+            <label for="bank_acc">Номер банківського рахунку:</label>
+            <input type="text" id="bank_acc" name="bank_acc" required>
+        </div>
+        <div class="form-group">
+            <label for="user_id">Особистий номер користувача:</label>
+            <input type="text" id="user_id" name="user_id" required>
+        </div>
+    <fieldset>
+       <legend>Виберіть товари:</legend>
+        <div class="inline-group">
+            <label><input type="checkbox" name="product" value="laptop"> Ноутбук</label><br>
+            <label><input type="checkbox" name="product" value="mouse"> Ігрова миша</label><br>
+            <label><input type="checkbox" name="product" value="keyboard"> Механічна клавіатура</label><br>
+            <label><input type="checkbox" name="product" value="monitor"> Ігровий монітор</label><br>
+            <label><input type="checkbox" name="product" value="headphones"> Навушники</label><br>
+            <label><input type="checkbox" name="product" value="pad"> Килимок для миші</label>
+        </div>
+    </fieldset>
+        <div class="inline-group">
+            <label>Вид оплати:</label><br>
+            <label><input type="radio" name="payment" value="cash" checked> Готівковий розрахунок</label>
+            <label><input type="radio" name="payment" value="invoice"> Безготівковий розрахунок</label>
+        </div>
+    <fieldset>
+            <legend>Додаткова інформація</legend>
+            <div class="inline-group">
+                <label><input type="checkbox" name="info_balance" value="yes"> Дані про залишки на рахунку</label>
+                <br>
+                <label><input type="checkbox" name="info_history" value="yes"> Список останніх виплат по рахунку</label>
+            </div>
+    </fieldset>
+         <div class="form-group">
+            <label for="comments">Довільні коментарі:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        </div>
+         <div class="btn-container">
+            <input type="reset" value="Очистити">
+            <input type="submit" value="Підтвердити замовлення">
+        </div>
+    </div>
+</body>
+</html>

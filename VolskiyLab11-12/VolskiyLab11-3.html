@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 3</title>
+    <link rel="stylesheet" href="task11.css">
+</head>
+<body>
+    <h2 style="color: red;">Анкета</h2>
+    <div class="form-container">
+        <table class="anketa-table">
+            <tr>
+                <td class="num-col">1.</td>
+                <td class="label-col">Прізвище</td>
+                <td class="input-col"><input type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <td class="num-col">2.</td>
+                <td class="label-col">Ім'я, по батькові</td>
+                <td class="input-col"><input type="text" name="firstname"></td>
+            </tr>
+            <tr>
+                <td class="num-col">3.</td>
+                <td class="label-col">Число і рік народження</td>
+                <td class="input-col"><input type="text" name="birthday"></td>
+            </tr>
+            <tr>
+                <td class="num-col">4.</td>
+                <td class="label-col">Домашня адреса</td>
+                <td class="input-col"><input type="text" name="address"></td>
+            </tr>
+            <tr>
+                <td class="num-col">5.</td>
+                <td class="label-col">Місце навчання (роботи)</td>
+                <td class="input-col"><input type="text" name="place"></td>
+            </tr>
+            <tr>
+                <td class="num-col">6.</td>
+                <td class="label-col">Домашній (робочий) телефон</td>
+                <td class="input-col"><input type="text" name="phone"></td>
+            </tr>
+            <tr>
+                <td class="num-col">7.</td>
+                <td class="label-col">E-mail</td>
+                <td class="input-col"><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td class="num-col">8.</td>
+                <td class="label-col">Область наукових інтересів</td>
+                <td class="input-col">
+                    <ol class="interests-list">
+                        <li><input type="text" name="interest_1"></li>
+                        <li><input type="text" name="interest_2"></li>
+                        <li><input type="text" name="interest_3"></li>
+                        <li><input type="text" name="interest_4"></li>
+                        <li><input type="text" name="interest_5"></li>
+                        <li><input type="text" name="interest_6"></li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+        <div style="margin-top: 15px;">
+            <input type="reset" value="Відмінити введення" style="display: block; margin-bottom: 10px;">
+            <input type="submit" value="Надіслати дані та перейти до 2 етапу реєстрації">
+        </div>
+    </div>
+</body>
+</html>
