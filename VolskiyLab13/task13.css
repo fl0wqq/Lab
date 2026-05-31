@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.bg1 {
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-image: url(images/8768-pole_tsvetov.jpg);
+    min-height: 100vh;
+}
+h2 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/686637899c451_turecka_gvozdika.jpeg);
+    background-size: cover;
+    color: darkred; 
+    font-weight: bold;
+    font-size: 35pt; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+h3 {
+    color: purple;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+p {
+    color: black;
+    font-style: italic;
+    font-size: 14pt;
+    text-indent: 2%;
+    text-align: justify;
+    line-height: 1.5;
+}
+.box, .card {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+ul.row {
+    padding-left: 30px;
+}
+ul.row li {
+    margin: 8px 0;
+    font-size: 16pt;
+}
+ul.row li a {
+    color: black;
+    text-decoration: none;
+}
+ul.row li a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+.back-link {
+    font-size: 12pt;
+    color: darkred;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+.back-link:hover {
+    text-decoration: underline;
+}
