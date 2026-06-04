@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Привітання</title>
+</head>
+<body bgcolor="#111827" text="#10B981">
+    <br>ВВЕДІТЬ ВАШЕ ІМ'Я:
+    <input name="myName" id="myName" type="text">
+    <input type="button" value="OK" onclick="
+        var s = '<html><body bgcolor=#10B981 text=#ffffff><h3 align=center>Добрий день, ' + document.getElementById('myName').value + '</h3></body></html>';
+        document.write(s);
+    ">
+</body>
+</html>

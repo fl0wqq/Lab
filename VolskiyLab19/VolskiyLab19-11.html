@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>VolskiyLab19-11</title>
+    <script>
+        var al = 0;
+        function podmen() {
+            var w = document.images[0].src;
+            var ch = w.lastIndexOf("/");
+            var path = w.substring(0, ch + 1);
+            if (window.al == 0) {
+                document.images[0].src = path + "dance.gif";
+                window.al = 1
+            } else {
+                document.images[0].src = path + "disco.jpg";
+                window.al = 0;
+            }
+            setTimeout("podmen()", "600");
+        }
+        setTimeout("podmen()", "600");
+    </script>
+</head>
+<body background="images/bg.jpg" bgcolor="#0f172a">
+    <center>
+        <h1><font color="#38bdf8">Зміна зображення через задані проміжки часу</font></h1>
+        <img height="142" src="images/disco.png" width="150" border="1" alt="Анімаційний кадр">
+    </center>
+</body>
+</html>
