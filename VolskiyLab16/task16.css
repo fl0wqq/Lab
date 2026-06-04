@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(15, 12, 32);
+    padding: 15px;
+    margin: 30px;
+    height: 1080px;
+}
+body.main-page {
+    background-color: #95ccec;
+    color: #e90329;
+    font-family: arial;
+    margin: 40px;
+    height: auto;
+}
+body.main-page p {
+    text-align: justify;
+}
+body.main-page h1 {
+    color: #e9033d;
+}
+
+body.main-page footer {
+    margin-top: 40px;
+    font-style: italic;
+}
+.box {
+    max-width: 920px;
+    box-shadow: 0 12px 32px rgb(100, 12, 96);
+    background-color: rgb(165, 161, 153);
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+}
+.box h1 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center
+}
+.box h3 {
+    text-align: center;
+}
+.glow {
+    font-size: 40px;
+    text-shadow: 0 0 10px rgb(22, 253, 1), 
+                 0 0 20px rgb(22, 253, 1), 
+                 0 0 40px rgb(22, 253, 1);
+}
+.glow a:link, .glow a:visited {
+    color: #fff;
+    text-decoration: none;
+    cursor: default;
+}
+.hyperlinks {
+    background-color: #363535;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 25px;
+    color: rgb(238, 12, 208);
+}
+.hyperlinks dt {
+    font-size: 30px;
+}
+.hyperlinks dd {
+    font-size: 20px;
+    margin: 15px;
+    color: #fff;
+}
+.hyperlinks a:link {
+    color: green;
+    text-decoration: none;
+}
+.hyperlinks a:visited {
+    color: greenyellow;
+    text-decoration: none;
+}
+.hyperlinks a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.hyperlinks a:active {
+    color: rgb(238, 12, 208);
+}
+.homelink {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 12px;
+    background-color:darkgrey;
+    margin:auto;
+    height:30px;
+    text-align: center;
+    color:purple
+}
+.homelink a:link, .homelink a:visited {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+.homelink a:hover {
+    color: white;
+    background-color: purple;
+    border-radius: 4px;
+}
+.return {
+    font-size: 20px;
+    text-align: center;
+    background-color: cadetblue;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    top: 60px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.return a:link, .return a:visited {
+    color: white;
+    text-decoration: none;
+}
+.return a:hover {
+    color: rgb(15, 12, 32);
+    text-decoration: underline;
+}
+.hyperlinks img {
+    width: 50px;
+    height: 50px;
+}
+a:link {
+    color: #1202f1;
+    text-decoration: none;
+}
+a:visited {
+    color: #0703f8;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+a:active {
+    color: #ff0000;
+}
