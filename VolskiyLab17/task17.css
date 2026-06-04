@@ -1,0 +1,42 @@
+body.task1 {
+    background-color: #99cc66;
+}
+.fon_text {
+    background-color: #339933;
+    color: yellow;
+    font-size: 14pt;
+}
+body.task2, body.task3 {
+    background-image: url(images/spring-2.jpg);
+}
+body.task4 {
+    background-image: url(images/spring-2.jpg);
+    background-repeat: repeat-y;
+}
+body.task5 {
+    background-image: url(images/spring-2.jpg);
+    background-repeat: repeat-x;
+}
+body.task6 {
+    background-image: url(images/spring-2.jpg);
+    background-repeat: no-repeat;
+}
+body.task7 {
+    background-image: url(images/spring-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center 80px;
+}
+body.task8 {
+    background-color: #ccff99;
+}
+.fon_scroll {
+    margin: 0 auto;
+    width: 700px;
+    height: 800px;
+    padding: 30px;
+    background-color: #ffffff;
+    background-image: url(images/spring.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 15%;
+}
